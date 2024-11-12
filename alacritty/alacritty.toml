@@ -1,0 +1,87 @@
+# Alacritty Configuration File
+# import = [
+#     "~/.config/alacritty/themes/themes/MyCustom.toml"
+# ]
+
+# Colors (Baitong)
+
+[colors.primary]
+background = '#0a0e14'
+foreground = '#AACFFF'
+
+[colors.cursor]
+text = '#112a2a'
+cursor = '#AACFFF'
+
+[colors.vi_mode_cursor]
+text = '#112a2a'
+cursor = '#ff00ff'
+
+[colors.search]
+matches = { foreground = '#000000', background = '#1AE642' }
+focused_match = { foreground = '#000000', background = '#ff00ff' }
+
+[colors.hints]
+start = { foreground = '#1d1f21', background = '#1AE642' }
+end = { foreground = '#1AE642', background = '#1d1f21' }
+
+[colors.line_indicator]
+foreground = '#9B1FE8'
+background = '#1d1f21'
+
+[colors.footer_bar]
+background = '#731d8b'
+foreground = '#ffffff'
+
+[colors.selection]
+text = '#112a2a'
+background = '#93A1A1'
+
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#f77272'
+green   = '#9B1FE8'
+yellow  = '#FB7E14'
+blue    = '#9F02BC'
+magenta = '#ff66ff'
+cyan    = '#87CEFA'
+white   = '#dbdbd9'
+
+# Bright colors
+[colors.bright]
+black   = '#ffffff'
+red     = '#f77272'
+green   = '#FB7E14'
+yellow  = '#FB7E14'
+blue    = '#68FDFE'
+magenta = '#ff66ff'
+cyan    = '#68FDFE'
+white   = '#dbdbd9'
+
+[font]
+size = 10
+normal = { family = "MesloLGS Nerd Font Propo", style = "Regular" }
+bold = { family = "MesloLGS Nerd Font Propo", style = "Bold" }
+italic = { family = "MesloLGS Nerd Font Propo", style = "Italic" }
+bold_italic = { family = "MesloLGS Nerd Font Propo", style = "Bold Italic" }
+
+[env]
+TERM = "xterm-256color"
+
+[scrolling]
+history = 5000
+
+[window]
+dynamic_padding = true
+opacity = 0.9
+title = "Alacritty"
+startup_mode = "Maximized"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 6
+y = 6

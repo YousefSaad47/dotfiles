@@ -76,7 +76,8 @@ history = 5000
 dynamic_padding = true
 opacity = 0.9
 title = "Alacritty"
-startup_mode = "Maximized"
+# startup_mode = "Maximized"
+dimensions = { columns = 110, lines = 30 }
 
 [window.class]
 general = "Alacritty"

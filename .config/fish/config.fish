@@ -13,9 +13,6 @@ if not string match -q -- "$PNPM_HOME/bin" $PATH
 end
 # pnpm end
 
-# Add Neovim to PATH
-set -gx PATH $PATH "/opt/nvim-linux64/bin"
-
 zoxide init fish | source
 
 # vscode
